@@ -17,7 +17,7 @@ int main()
     int t;
     cin >> t;
 
-    for (int i = 0; i < str.size(); i++)
+    for (int i = 0; i < int(str.size()); i++)
     {
         l.push_back(str[i]);
     }
@@ -69,6 +69,6 @@ int main()
     중간에서의삽입, 수정 이런게 많음
     이럴 땐 --> linked list 쓰는게 되게 좋음
     STL list 활용하자!
-    
+
     반복자 iterator 에 대해 숙지해놓으면 되게 좋음
 */
