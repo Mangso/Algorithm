@@ -4,22 +4,22 @@
 
 using namespace std;
 
-long long arr[91];
+long long fibo[91];
 
 int main()
 {
     int n;
     cin >> n;
 
-    arr[0] = 0;
-    arr[1] = 1;
+    fibo[0] = 0;
+    fibo[1] = 1;
 
     for (int i = 2; i <= n; i++)
     {
-        arr[i] = arr[i - 1] + arr[i - 2];
+        fibo[i] = fibo[i - 1] + fibo[i - 2];
     }
     
-    cout << arr[n];
+    cout << fibo[n];
 
     return 0;
 }
